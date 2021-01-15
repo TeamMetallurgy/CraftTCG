@@ -1,0 +1,22 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "crafttcg:item/air"
+  },
+  "overrides": [
+    {
+      "__comment": "common air",
+      "predicate": {
+        "card": 1
+      },
+      "model": "crafttcg:item/air_common"
+    },
+    {
+      "__comment": "common bat",
+      "predicate": {
+        "card": 5
+      },
+      "model": "crafttcg:item/bat_common"
+    }
+  ]
+}

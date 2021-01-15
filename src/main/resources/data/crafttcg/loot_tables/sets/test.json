@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "name": "crafttcg:test_card",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{artid:air}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "crafttcg:test_card",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{artid:bat}"
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

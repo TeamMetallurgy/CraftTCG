@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer1": "crafttcg:item/air",
+    "layer0": "crafttcg:item/core_common_frame"
+  }
+}
