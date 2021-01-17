@@ -16,8 +16,8 @@ import java.util.List;
 public class CraftTCGItems {
     public static List<Item> ITEMS = Lists.newArrayList();
 
-    public static final Item TEST_CARD = register("test_card", new Item(new Item.Properties().group(CraftTCGMain.GROUP)));
-    public static final Item TEST_BOOSTER = register("test_booster", new BoosterItem(CraftTCGLoot.TEST_SET));
+    public static final Item CARD_MODEL = register("card_model", new Item(new Item.Properties().group(CraftTCGMain.GROUP)));
+    public static final Item CORE_BOOSTER = register("core_booster", new BoosterItem(CraftTCGLoot.CORE_SET));
 
     protected static Item register(String registryName, Item thisItem){
         thisItem.setRegistryName(new ResourceLocation(CraftTCGMain.MOD_ID, registryName));

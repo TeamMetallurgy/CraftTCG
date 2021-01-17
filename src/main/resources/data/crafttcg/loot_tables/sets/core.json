@@ -5,22 +5,30 @@
       "entries": [
         {
           "type": "item",
-          "name": "crafttcg:test_card",
+          "name": "crafttcg:card_model",
           "functions": [
             {
               "function": "set_nbt",
               "tag": "{artid:air}"
+            },
+            {
+              "function": "set_name",
+              "name": "Air Card"
             }
           ],
           "weight": 1
         },
         {
           "type": "item",
-          "name": "crafttcg:test_card",
+          "name": "crafttcg:card_model",
           "functions": [
             {
               "function": "set_nbt",
               "tag": "{artid:bat}"
+            },
+            {
+              "function": "set_name",
+              "name": "Bat Card"
             }
           ],
           "weight": 1

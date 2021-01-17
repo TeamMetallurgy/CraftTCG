@@ -17,7 +17,7 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = CraftTCGMain.MOD_ID)
 public class CraftTCGLoot {
 
-    public static final ResourceLocation TEST_SET = register("sets/test");
+    public static final ResourceLocation CORE_SET = register("sets/core");
 
     private static ResourceLocation register(String path) {
         return LootTables.register(new ResourceLocation(CraftTCGMain.MOD_ID, path));
@@ -27,7 +27,7 @@ public class CraftTCGLoot {
     public static void onLootLoad(LootTableLoadEvent e) {
 
         if(e.getName().equals(new ResourceLocation("minecraft", "entities/creeper"))) {
-            e.getTable().addPool(LootPool.builder().rolls(ConstantRange.of(1)).addEntry(ItemLootEntry.builder(CraftTCGItems.TEST_BOOSTER).weight(90)).addEntry(ItemLootEntry.builder(Items.AIR).weight(10)).build());
+            e.getTable().addPool(LootPool.builder().rolls(ConstantRange.of(1)).addEntry(ItemLootEntry.builder(CraftTCGItems.CORE_BOOSTER).weight(90)).addEntry(ItemLootEntry.builder(Items.AIR).weight(10)).build());
         }
     }
 }
