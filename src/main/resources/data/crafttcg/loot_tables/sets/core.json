@@ -28,7 +28,7 @@
             },
             {
               "function": "set_name",
-              "name": "Bat Card"
+              "name": {"translate": "crafttcg.bat_card"}
             }
           ],
           "weight": 1
